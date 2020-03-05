@@ -7,6 +7,8 @@ require 'json'
 require 'socket'
 require 'stringio'
 
+require 'time'
+
 class Yomu
   GEMPATH = File.dirname(File.dirname(__FILE__))
   JARPATH = File.join(Yomu::GEMPATH, 'jar', 'tika-app-1.11.jar')
